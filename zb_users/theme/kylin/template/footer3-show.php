@@ -25,7 +25,7 @@
     <div id="site-bottom" class="clear">
         <div class="container">
             <div class="menu-m_footer-container">
-                <ul id="footer-menu" class="footer-nav">
+                <ul id="footer-menu" class="footer-nav" style="display: none">
                     <li><strong><a href="{$host}about">关于我们</a></strong></li>
                     <li><strong><a href="{$host}contact">联系我们</a></strong></li>
                     <li><strong><a href="{$host}copyright">免责声明</a></strong></li>

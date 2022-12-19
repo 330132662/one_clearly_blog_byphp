@@ -3,7 +3,7 @@
     <div class="clear"></div>
     <div id="site-bottom" class="clear">
         <div class="container">
-            <div class="menu-m_footer-container">
+            <div class="menu-m_footer-container" style="display: none">
                 <ul id="footer-menu" class="footer-nav">
                     <li><strong><a href="{$host}about">关于我们</a></strong></li>
                     <li><strong><a href="{$host}contact">联系我们</a></strong></li>

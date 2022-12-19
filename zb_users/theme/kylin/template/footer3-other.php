@@ -4,7 +4,7 @@
     <div id="site-bottom" class="clear">
         <div class="container">
             <div class="menu-m_footer-container">
-                <ul id="footer-menu" class="footer-nav">
+                <ul style="display: none" id="footer-menu" class="footer-nav">
                     <li><strong><a href="{$host}about">关于我们</a></strong></li>
                     <li><strong><a href="{$host}contact">联系我们</a></strong></li>
                     <li><strong><a href="{$host}copyright">免责声明</a></strong></li>
