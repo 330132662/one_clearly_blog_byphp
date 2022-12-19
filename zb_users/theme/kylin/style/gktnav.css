@@ -1,0 +1,228 @@
+@charset "utf-8";
+/*
+ * 作者：逍遥金鹏  QQ：77103588
+ * Copyright , 版权所有
+ * 版本：V1.0.0
+ * 
+*/
+
+/*小于1600大于1200稍微调整下字体*/
+@media screen and (max-width: 1600px) and (min-width:1200px) {
+.nav ul li .a1{font-size:14px}
+.nav ul li .div1 .p1 a{font-size:12px}
+.foot_top ul{margin-left:60px}
+.nav ul li .div1 .p1{width:58.1%}
+}
+/*移动端导航*/
+@media screen and (max-width: 1024px) and (min-width: 0px){
+.head{display:none}
+.moblie_head{display:block;height:44px;background:#fff;position:fixed;top:0px;left:0px;width:100%;z-index:9999;border-bottom:1px solid #ddd}
+.moblie_head .lf{padding-top:10px;padding-left:5%}
+.moblie_head .lf img{height:24px}
+.moblie_head .rg{padding-right:5%;padding-top:14px}
+.moblie_head .rg a img{height:16px;vertical-align:top}
+.a_txt{display:block;position:fixed;top:0px;left:0px;width:0px;height:0px;overflow:hidden;z-index:10000}
+.a_txt .div1{position:absolute;width:100%;height:100%;background:#0b1e93;filter:alpha(opacity=0);opacity:0;left:0px;top:0px;z-index:1}
+.a_txt .div2{position:absolute;width:20%;left:0px;top:5%;z-index:100;text-align:center;filter:alpha(opacity=0);opacity:0}
+.a_txt .div3{position:absolute;width:80%;right:0px;top:0px;background:#3860b6;height:100%;z-index:100;right:-80%}
+.a_txt .div3 ul{padding-left:5%;padding-right:5%}
+.a_txt .div3 ul li{border-bottom:1px solid #d3d3d3;list-style:none;}
+.a_txt .div3 ul li a{display:block;height:45px;color:#fff;line-height:45px;padding-left:5%;font-size:16px}
+.a_txt .div3 ul li .a_js2{background:url(../images/plus.png) 95% center no-repeat;-webkit-transition:all 0s;-moz-transition:all 0s;transition:all 0s}
+.a_txt .div3 ul li .a_js2_on{background:url(../images/reduce.jpg) 95% center no-repeat;-webkit-transition:all 0s;-moz-transition:all 0s;transition:all 0s}
+.a_txt .div3 ul li .a_txt2{display:none}
+.a_txt .div3 ul li .a_txt2 a{height:40px;line-height:40px;font-size:14px}
+}
+    /* Theme Colors */
+    .site-title a:hover,
+    .site-header .search-icon:hover span,
+    .site-header .search-icon:hover span:before,
+    .sf-menu li a:hover,
+    .sf-menu li li a:hover,
+    .sf-menu li.sfHover a,
+    .sf-menu li.current-menu-item a,
+    .sf-menu li.current-menu-item a:hover,
+    article.hentry .edit-link a,
+    .author-box a,
+    .page-content a,
+    .entry-content a,
+    .comment-author a,
+    .comment-content a,
+    .comment-reply-title small a:hover,
+    .sidebar .widget a,
+    .site-footer .widget a,
+    #back-top a span,
+    #site-bottom a:hover {
+        color: #037ef3;
+    }
+    button,
+    .btn,
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    #back-top a:hover span {
+        background-color: #037ef3;
+    }
+    .entry-category a,
+    .header-search .search-input:focus,
+    .sidebar .widget_search input[type='search']:focus,
+    #back-top a span {
+        border-color: #037ef3;
+    }
+    .entry-category a,
+    .entry-category a:hover {
+        background: #037ef3 !important;
+        color: #fff !important;
+    }
+    a:hover,    
+    .sidebar .widget a:hover,
+    .site-footer .widget a:hover,
+    .entry-title a:hover,
+    .author-box a:hover,
+    .page-content a:hover,
+    .entry-content a:hover,
+    .content-list .entry-title a:hover,
+    article.hentry .edit-link a:hover,
+    .comment-content a:hover,
+    .single #primary .sticky-breadcrumbs .entry-comment a,
+    .entry-meta a:hover {
+        color: #ff4c4c;
+    }
+    .pagination .page-numbers:hover,
+    .pagination .page-numbers.current,
+    .entry-meta a:hover{
+        color: #ffffff;
+        background: #ff4c4c;
+    }
+    .sidebar-2 #left-nav li a:hover,
+    .sidebar-2 #left-nav li.current-cat a,
+    .sidebar-2 #left-nav li.current-menu-item a,
+    .sidebar-2 #left-nav li.categories h3,
+    .search .sidebar-2 #left-nav li.menu-item-home a,
+    .single .sidebar-2 #left-nav li.menu-item-home a,
+    .author .sidebar-2 #left-nav li.menu-item-home a,
+    .tag .sidebar-2 #left-nav li.menu-item-home a,
+    .sidebar .widget .widget-title:before {
+        background-color:#0087f5; /*background-color: #ff4c4c;*/
+    }
+    .slicknav_nav {
+        border-color: #ff4c4c   }
+    .bx-wrapper .bx-pager.bx-default-pager a:hover,
+    .bx-wrapper .bx-pager.bx-default-pager a.active,
+    .bx-wrapper .bx-pager.bx-default-pager a:focus {
+        background-color: #2a18c0;
+    }
+    .header-search {
+        border-top-color: #ffbe02;
+    }
+            /* Make headings strong font */
+        .content-list .entry-title {
+            font-weight: bold;
+/*text-align: justify;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;*/
+        }
+                /* Display views count on content list */
+        .content-list .entry-meta .entry-comment {
+            margin-left: 0;
+        }
+        .content-list .entry-meta .entry-comment:before {
+            content: none;
+            display: none;
+        }
+        
+                        /* Customize thumbnail width on content list */
+                    @media only screen and (min-width: 1180px) {
+                .content-list .thumbnail-link {
+                    width: 218px;
+                }
+            }
+                    
+        /* Pagination style */
+        .content-list .hentry.last,
+        .content-search .hentry.last {
+            border-bottom: none;
+        }
+        .pagination {
+            display: block;
+        }
+                    /* Hide sidebar on mobile devices */
+        @media only screen and (max-width: 959px) {
+            #secondary {
+                display: none;
+            }
+        }
+/* Hide footer widgets on mobile devices */
+@media only screen and (max-width: 959px) {
+.footer-columns {display: none;}}
+@media only screen and (min-width:900px) {
+.logos{width:200px;margin:0 auto;display:block;margin-top:20px;}
+.logos img{width:100%;height:auto;}
+.juzhong{width:100%;margin-top:30px;background:#f4f4f4;padding:30px 0px;overflow:hidden;border-top:1px solid #eceaea;border-bottom:1px solid #eceaea;}
+.fan{width:200px;
+	line-height:45px;
+	background:#d8643f;
+	border-radius:4px;
+	text-align:center;
+	color:#fff;
+	display:block;margin:30px auto;}	
+.fan:hover{color:#FFF;}
+.weixinde {
+	width:300px;
+	margin:0 auto;
+	background:url(../style/images/weixin.png) no-repeat;
+	background-size:25px 25px;
+	background-position:0px 3px;
+		line-height:30px;
+	text-indent:45px;
+color:#838383;
+	font-size:17px;
+	display:block;
+}
+.btn{background:#3ab131;color:#fff;
+	width:55px;
+	line-height:25px;
+	border:none;
+	letter-spacing:1px;
+	font-size:11px;
+	outline:none;
+	border-radius:5px;margin-left:15px;margin-top:-15px;}
+}
+.juzhong button{line-height:25px;height:25px!important;font-size: 11px;}
+@media only screen and (max-width:900px) {
+.juzhong button{line-height:25px;height:25px;font-size: 11px;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);}
+.logos{width:100px;margin:0 auto;display:block;margin-top:10px;}
+.logos img{width:100%;height:auto;}
+.juzhong{width:100%;background:#f8f8f8;/*padding:30px 0px;margin-top:20px;border-top:1px solid #eceaea;border-bottom:1px solid #eceaea; */overflow: hidden;position: fixed; z-index: 9999;bottom: 0;padding: 0 0;border: 0; display: block;/*text-align: center;*/}
+.fan{width:140px;
+	line-height:35px;
+	background:#d8643f;
+	border-radius:4px;
+	text-align:center;
+	color:#fff;
+	display:block;margin:25px auto;}	
+.fan:hover{color:#FFF;}
+
+.weixinde{width:100%;background:url(../style/images/weixin.png) no-repeat;background-size:23px 23px;background-position:1px 15px;line-height:31px;text-indent:28px;display:block;color:#000;font-size:11px;margin:0 auto;}
+.btn{background:#3ab131;color:#fff;
+	width:188px;
+	/*-height:25px;letter-spacing:1px;*/
+	border:none;
+	font-size:11px;
+	outline:none;
+	border-radius:2em;margin-left:15px;margin-top:15px;margin-bottom:15px;line-height:25px}
+}
+.entry-related li:hover {
+    background: #f6f8f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    transition: 1.18s all;
+}
+input.gkt-radius-button-blue {
+    border-radius: 2em;
+    height: 28px;
+    line-height: 25px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
