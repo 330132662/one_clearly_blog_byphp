@@ -1,0 +1,28 @@
+/*page*/
+.leonhere {padding:5px 0; width: 99%; overflow: hidden;}
+.leonhere.cateEidtor {width: 600px;}
+.leonhere.cateEidtor label {padding:0;}
+.leonhere label {display:block; line-height: 1.875em; padding: 0 2px 0 3px; font-size: 1.1em; font-weight: bold;}
+.leonhere .des {color:#f00; display:block; line-height:1.875em; font-size:14px; padding:0 5px; clear: both;}
+.leonhere .uploadimg {padding-right:70px; border-radius:3px; position:relative;}
+.leonhere .btn {cursor:pointer; background-color:#3A6EA5; width:70px; height:35px; line-height:35px; font-size:14px; text-align:center; color:#fff; display:block; position:absolute; right:0; top:0;border-radius:0 3px 3px 0;}
+.leonhere .text {font-size: 14px; font-family: 'Microsoft Yahei'; color:#333; height:35px; padding:5px 0.5%; line-height:normal; width:100%; border-radius:3px 0 0 3px;}
+.leonhere textarea.text {height:5em;font-family: 'Microsoft Yahei'; resize:none;}
+.leonhere .preview {padding:10px; background-color:#f9f9f9; margin:10px 0;}
+.leonhere .preview img {display: block; width: auto; max-width: 100%; height: auto; max-height: 150px;}
+.leonhere .color {color:#fff;}
+
+.settings th {text-align: center; table-layout: fixed;}
+.settings table {width: 100%;}
+.settings label {font-weight:bold; text-align:center; display:block;}
+.settings .order {text-align: center;}
+.settings .text { width:97%; padding:5px 1.5%; font-size:14px; line-height: 25px;  border-radius:3px;}
+.settings textarea.text {height:90px; padding:1% 1.5%; resize:vertical;}
+.settings .button{background-color:#3A6EA5; color:#fff; font-size:12px; height:30px; border-radius:3px; font-size:14px;}
+.settings .show {padding:5px 10px; position:relative;}
+.settings .show img {display:block; max-width:80px; max-height:60px; position:absolute; left:auto; top:50%; transform:translateY(-50%); border-radius:5px;}
+.settings .uploadimg {margin-left:85px; width:auto; position:relative; padding:15px 65px 15px 0;}
+.settings .btn {cursor:pointer; background-color:#3A6EA5; color:#fff; position:absolute; right:0; top:50%; font-size:12px; height:30px; line-height:30px; width:65px; text-align:center; border-radius:3px; margin-top:-15px; font-weight:normal;}
+.settings .submit {margin-top: 15px;}
+.settings .clear {overflow: hidden;}
+.settings .warning {color:#f00;}
