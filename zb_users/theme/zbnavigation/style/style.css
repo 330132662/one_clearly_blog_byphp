@@ -3,7 +3,7 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section {display:block;}
 div,html,body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {margin:0; padding:0;}
 body {background-color:#fafafa; font:100%/1.5em Arial,'Microsoft Yahei'; overflow-x:hidden;}
-a {text-decoration:none; outline:none; color:#333;}
+a {text-decoration:none; outline:none; color:#2987da;}
 a:hover {color:#00a0a0;}
 input {-webkit-appearance:none; border:0;}
 input:focus,textarea:focus {outline:none; -webkit-tap-highlight-color:transparent;}
@@ -166,7 +166,7 @@ hr {border:none; height:1px;  width:100%; clear:both; background-color:#e4e4e4; 
 .links ul {overflow:hidden;padding:0 15px;}
 .links li {float:left;width:33.333%;font-size:14px;height:45px;line-height:45px;text-align:center;}
 .links li a {display:block;}
-.links li .text {vertical-align:top;margin-left:5px;font-style:normal;}
+.links li .text {vertical-align:top;margin-left:3px;font-style:normal;}
 /*wrapper*/.wrapper {padding:20px;margin-left:260px;}
 /*breadcrumb*/
 .breadcrumb {border-bottom:1px solid #eee;padding:10px 20px;font-size:14px;color:#666;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
@@ -599,4 +599,12 @@ hr {border:none; height:1px;  width:100%; clear:both; background-color:#e4e4e4; 
 }
 @media only screen and (max-width:480px){
   .slickBox .item a {margin-right: 3%;}
+}
+.sx-count{
+  position: absolute;
+  /* margin-inline-start: 300px; */
+  color: #888;
+	text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
 }
