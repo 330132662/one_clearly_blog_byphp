@@ -1,1 +1,0 @@
-<?php /*防止小偷的，不会被编译显示在网页源码中*/header('HTTP/1.1 404 Not Found');echo '<!DOCTYPE html><html><head><meta charset="UTF-8"/></head><body><div style="text-align:center; margin-top:50px; font-size:2em;">请不要查看本站的源代码！</div></body></html>'; exit();?>
