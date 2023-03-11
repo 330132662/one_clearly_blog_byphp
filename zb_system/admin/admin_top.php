@@ -9,8 +9,8 @@
             <a href="<?php echo $zbp->cmdurl . '?act=admin'; ?>" title="<?php ?>"><?php } else { ?>
                 <a href="<?php echo $bloghost; ?>" title="<?php echo htmlspecialchars($blogname); ?>"
                    target="_blank"><?php } ?>
-                    <!--                    <img src="--><?php //echo $bloghost; ?><!--zb_system/image/admin/none.gif" alt="zhonggong"/>-->
-                    <img src="http://fzw.wfyckj.com/zb_users/upload/2022/12/20221229180450167230829049750.png" alt="zhonggong"/>
+<!--                    <img src="--><?php //echo $bloghost; ?><!--zb_system/image/admin/none.gif" alt="zhonggong"/>-->
+                    <img src="http://www.aoyouchem.com/Public/Home/aoyou/images/logo.jpg" alt="zhonggong"/>
                 </a>
         </div>
         <div class="user"><a
